@@ -1,0 +1,108 @@
+.mi_container{
+  background-color: #e9ecef;
+  position: absolute;
+  bottom: 0;
+  width: 74%;
+  right: 0;
+  margin: 0 3%;
+  border-radius: 1rem;
+}
+
+.mi_container-head{
+  width: 100%;
+  background-color: #28a788;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem 1rem 0 0;
+  padding: 2%;
+
+}
+
+.mi_container-head h4{
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 1%;
+    color: #f8f9fa;
+}
+
+#name{
+  display: block;
+  margin:0 auto 3.2% 3.2%;
+  width: 28%;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: none;
+  border-bottom: 5px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.mi_container-area{
+  padding: 1%;
+  margin: 4% auto;
+}
+
+.messagearea{
+ 	width: 98%;
+ 	margin: auto;
+ 	display: table;
+}
+
+#message{
+  display: flex;
+  align-items: center;
+  width: 78.8%;
+  height: 50px;
+  float: left;
+  border-radius: 32px;
+  border: none;
+  margin: 0 1.2%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.btn_cnt {
+  width: 18%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+#send{
+  width: 50px;
+  height: 50px;
+  border-radius:25px; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+
+svg{
+
+}
+
+#rect5084{
+  transform: translateY(-87px);
+  -webkit-transform: translateY(-87px);
+  opacity:1;
+  vector-effect:none;
+  fill:#fff;
+  fill-opacity:1;
+  fill-rule:nonzero;
+  stroke:none;
+  stroke-width:0.00023612;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:4;
+  stroke-dasharray:none;
+  stroke-dashoffset:0;
+  stroke-opacity:1;
+  paint-order:markers fill stroke;     
+}
