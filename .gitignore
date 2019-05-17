@@ -1,2 +1,2 @@
 #This gitignore might work
-**/node_modules
+node_modules
